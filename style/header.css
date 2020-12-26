@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Lobster&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+header {
+	height: 100px;
+	background-color: red;
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+header .box {
+	margin: 10px;
+	background-color: #5dfc83;
+	width: 100px;
+	flex-grow: 1;
+	border-radius: 10px;
+	border: 3px solid #000000;
+}
+header .box:hover {
+	background-color: #5dbcfc;
+	border: 3px solid #ffffff;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+header .box a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 25px;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 70px;
+	font-family: 'Comfortaa', cursive;
+}
